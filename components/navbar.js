@@ -5,7 +5,7 @@ const Weather = () => {
 
     const [data, setData] = useState({});
     const [location, setLocation] = useState('');
-    const url = `http://api.weatherapi.com/v1/current.json?key=54c7d8ead8314337b0b150745222106&q=${location}&aqi=yes`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=54c7d8ead8314337b0b150745222106&q=${location}&aqi=yes`;
 
     const searchLocation = async(e) =>{
         
