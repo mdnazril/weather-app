@@ -1,0 +1,51 @@
+{
+    "location": {
+        "name": "Kampong Perak",
+        "region": "Perak",
+        "country": "Malaysia",
+        "lat": 4.78,
+        "lon": 100.7,
+        "tz_id": "Asia/Kuala_Lumpur",
+        "localtime_epoch": 1655918411,
+        "localtime": "2022-06-23 1:20"
+    },
+    "current": {
+        "last_updated_epoch": 1655918100,
+        "last_updated": "2022-06-23 01:15",
+        "temp_c": 22.5,
+        "temp_f": 72.5,
+        "is_day": 0,
+        "condition": {
+            "text": "Light rain shower",
+            "icon": "//cdn.weatherapi.com/weather/64x64/night/353.png",
+            "code": 1240
+        },
+        "wind_mph": 2.2,
+        "wind_kph": 3.6,
+        "wind_degree": 104,
+        "wind_dir": "ESE",
+        "pressure_mb": 1012,
+        "pressure_in": 29.87,
+        "precip_mm": 0.9,
+        "precip_in": 0.04,
+        "humidity": 97,
+        "cloud": 56,
+        "feelslike_c": 25,
+        "feelslike_f": 77,
+        "vis_km": 10,
+        "vis_miles": 6,
+        "uv": 1,
+        "gust_mph": 0.9,
+        "gust_kph": 1.4,
+        "air_quality": {
+            "co": 988,
+            "no2": 17.299999237060547,
+            "o3": 2.5,
+            "so2": 3.200000047683716,
+            "pm2_5": 28.799999237060547,
+            "pm10": 32.099998474121094,
+            "us-epa-index": 2,
+            "gb-defra-index": 3
+        }
+    }
+}

@@ -1,0 +1,84 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: url(/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:#ffffff;
+  }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h2{
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.weather{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin-top: auto;
+}
+.topBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90vw;
+  height: 10vh;
+  margin: 0 auto;
+  color: black;
+}
+form{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 100vmax;
+  background: #f7f7f7;
+}
+form input{
+  border: none;
+  outline: none;
+  background: #f7f7f7;
+}
+.submit{
+  cursor: pointer;
+}
+.cards{
+  max-width: 40vw;
+  min-width: 300px;
+  margin: 0 auto;
+  height: 90vh;
+}
+.cardContainer{
+  /* background: #00000025; */
+  /* backdrop-filter: blur(2px); */
+  border-radius: 10px;
+  min-width: 200px;
+  padding: 10px;
+  margin-top: 10vh;
+  border-radius: 5px;
+}
+.cardContainer::after{
+  content: '';
+  backdrop-filter: blur(2px);
+  background: #00000025;
+}
+.tempDetails{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 5vh auto;
+}
